@@ -6,7 +6,7 @@ const Telegram = require('telegram-node-bot'),
         `${__dirname}/data/userStorage.json`,
         `${__dirname}/data/chatStorage.json`
     ),
-    tg = new Telegram.Telegram('<PLACE_YOUR_TOKEN_HERE>', {
+    tg = new Telegram.Telegram('607967748:AAGGCS5t8TK7aKxZUeav2sgwcPTmkpVJDls', {
         workers: 1,
         storage: storage
     });
